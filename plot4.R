@@ -58,8 +58,8 @@ png(file="plot4.png")
 par(mfrow=c(2,2))
 
 # first plot (same as plot 2)
-xl="Global Active Power"
-yl=""
+xl=""
+yl="Global Active Power"
 with(electric.in.rng,plot(Global_active_power ~ DateTime,type="l",xlab=xl,ylab=yl))
 
 # second plot, new plot of Voltage over the time period
